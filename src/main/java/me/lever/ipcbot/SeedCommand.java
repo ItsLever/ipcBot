@@ -38,7 +38,7 @@ public class SeedCommand implements Command
 
     @Override
     public void onCommandEvent(SlashCommandInteractionEvent e) {
-      //  e.reply("yes").queue(); hello just testing smth. this should be private.
+      //  e.reply("yes").queue(); hello just testing smth. this should be private
         e.replyEmbeds(new EmbedBuilder().setDescription("The seed of this server is " + Main.plugin.getServer().getWorlds().get(0).getSeed() + "!").build()).setEphemeral(isPrivate()).queue();
     }
 }
