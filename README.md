@@ -1,0 +1,2 @@
+# ipcBot
+Testing intellij integration
